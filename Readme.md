@@ -15,25 +15,25 @@ This example demonstrates how to specify a map projection that is used to displa
 
 ## Example Overview
 
-To configure a map projection, specify the [GeoMapCoordinateSystem.Projection](xref:DevExpress.XtraMap.GeoMapCoordinateSystem.Projection) property of the [GeoMapCoordinateSystem](xref:DevExpress.XtraMap.GeoMapCoordinateSystem) object, which should be assigned to the [MapControl.CoordinateSystem](xref:DevExpress.XtraMap.MapControl.CoordinateSystem).
+To configure a map projection, specify the [GeoMapCoordinateSystem.Projection](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.GeoMapCoordinateSystem.Projection) property of the [GeoMapCoordinateSystem](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.GeoMapCoordinateSystem) object, which should be assigned to the [MapControl.CoordinateSystem](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.MapControl.CoordinateSystem).
 
 One of the following predefined map projections can be used:
-- [Braun stereographic projection](xref:DevExpress.XtraMap.BraunStereographicProjection)
-- [Elliptical Mercator projection](xref:DevExpress.XtraMap.EllipticalMercatorProjection)
-- [Equal-area projection](xref:DevExpress.XtraMap.EqualAreaProjection)
-- [Equidistant projection](xref:DevExpress.XtraMap.EquidistantProjection)
-- [Equirectangular projection](xref:DevExpress.XtraMap.EquirectangularProjection)
-- [Kavrayskiy projection](xref:DevExpress.XtraMap.KavrayskiyProjection)
-- [Lambert Cylindrical Equal-area projection](xref:DevExpress.XtraMap.LambertCylindricalEqualAreaProjection)
-- [Miller projection](xref:DevExpress.XtraMap.MillerProjection)
-- [Sinusoidal projection](xref:DevExpress.XtraMap.SinusoidalProjection)
-- [Spherical Mercator projection](xref:DevExpress.XtraMap.SphericalMercatorProjection)
-- [ Lambert Azimuthal Equal-Area Projection](xref:DevExpress.XtraMap.Etrs89LambertAzimuthalEqualAreaProjection)
+- [Braun stereographic projection](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.BraunStereographicProjection)
+- [Elliptical Mercator projection](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.EllipticalMercatorProjection)
+- [Equal-area projection](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.EqualAreaProjection)
+- [Equidistant projection](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.EquidistantProjection)
+- [Equirectangular projection](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.EquirectangularProjection)
+- [Kavrayskiy projection](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.KavrayskiyProjection)
+- [Lambert Cylindrical Equal-area projection](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.LambertCylindricalEqualAreaProjection)
+- [Miller projection](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.MillerProjection)
+- [Sinusoidal projection](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.SinusoidalProjection)
+- [Spherical Mercator projection](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.SphericalMercatorProjection)
+- [ Lambert Azimuthal Equal-Area Projection](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.Etrs89LambertAzimuthalEqualAreaProjection)
 
 ## Documentation 
 
-- [How to: Specify a Map Projection](xref:113973)
-- [Geographical Projections](xref:15079)
+- [How to: Specify a Map Projection](https://docs.devexpress.com/WindowsForms/113973/controls-and-libraries/map-control/examples/vector-data/customize-data-appearance/how-to-specify-a-map-projection)
+- [Geographical Projections](https://docs.devexpress.com/WindowsForms/15079/controls-and-libraries/map-control/coordinate-systems/geographical-projections)
 
 
 

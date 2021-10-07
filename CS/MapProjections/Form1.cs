@@ -16,7 +16,8 @@ namespace MapProjections {
             new LambertCylindricalEqualAreaProjection(),
             new MillerProjection(),
             new SinusoidalProjection(),
-            new SphericalMercatorProjection()
+            new SphericalMercatorProjection(),
+            new Etrs89LambertAzimuthalEqualAreaProjection()
         };
 
         GeoMapCoordinateSystem CoordinateSystem { get { return mapControl.CoordinateSystem as GeoMapCoordinateSystem; } }

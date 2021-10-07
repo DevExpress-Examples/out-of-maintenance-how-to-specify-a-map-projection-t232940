@@ -27,67 +27,72 @@
             Me.lbProjection = New System.Windows.Forms.ListBox()
             Me.label1 = New System.Windows.Forms.Label()
             Me.panel1 = New System.Windows.Forms.Panel()
-            DirectCast(Me.mapControl, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.mapControl, System.ComponentModel.ISupportInitialize).BeginInit()
             Me.panel1.SuspendLayout()
             Me.SuspendLayout()
-            ' 
-            ' mapControl
-            ' 
+            '
+            'mapControl
+            '
             Me.mapControl.Dock = System.Windows.Forms.DockStyle.Fill
-            Me.mapControl.Location = New System.Drawing.Point(4, 4)
+            Me.mapControl.Location = New System.Drawing.Point(5, 5)
+            Me.mapControl.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
             Me.mapControl.Name = "mapControl"
-            Me.mapControl.Size = New System.Drawing.Size(512, 512)
+            Me.mapControl.Size = New System.Drawing.Size(683, 630)
             Me.mapControl.TabIndex = 0
-            ' 
-            ' lbProjection
-            ' 
+            '
+            'lbProjection
+            '
             Me.lbProjection.Dock = System.Windows.Forms.DockStyle.Fill
             Me.lbProjection.FormattingEnabled = True
-            Me.lbProjection.Location = New System.Drawing.Point(4, 17)
+            Me.lbProjection.ItemHeight = 16
+            Me.lbProjection.Location = New System.Drawing.Point(5, 22)
+            Me.lbProjection.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
             Me.lbProjection.Name = "lbProjection"
-            Me.lbProjection.Size = New System.Drawing.Size(192, 495)
+            Me.lbProjection.Size = New System.Drawing.Size(257, 608)
             Me.lbProjection.TabIndex = 1
-            ' 
-            ' label1
-            ' 
+            '
+            'label1
+            '
             Me.label1.AutoSize = True
             Me.label1.Dock = System.Windows.Forms.DockStyle.Top
-            Me.label1.Location = New System.Drawing.Point(4, 4)
-            Me.label1.Margin = New System.Windows.Forms.Padding(4)
+            Me.label1.Location = New System.Drawing.Point(5, 5)
+            Me.label1.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
             Me.label1.Name = "label1"
-            Me.label1.Size = New System.Drawing.Size(84, 13)
+            Me.label1.Size = New System.Drawing.Size(111, 17)
             Me.label1.TabIndex = 2
             Me.label1.Text = "Projection class:"
-            ' 
-            ' panel1
-            ' 
+            '
+            'panel1
+            '
             Me.panel1.Controls.Add(Me.lbProjection)
             Me.panel1.Controls.Add(Me.label1)
             Me.panel1.Dock = System.Windows.Forms.DockStyle.Right
-            Me.panel1.Location = New System.Drawing.Point(516, 4)
+            Me.panel1.Location = New System.Drawing.Point(688, 5)
+            Me.panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
             Me.panel1.Name = "panel1"
-            Me.panel1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 0)
-            Me.panel1.Size = New System.Drawing.Size(200, 512)
+            Me.panel1.Padding = New System.Windows.Forms.Padding(5, 5, 5, 0)
+            Me.panel1.Size = New System.Drawing.Size(267, 630)
             Me.panel1.TabIndex = 3
-            ' 
-            ' Form1
-            ' 
-            Me.AutoScaleDimensions = New System.Drawing.SizeF(6F, 13F)
+            '
+            'Form1
+            '
+            Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
             Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-            Me.ClientSize = New System.Drawing.Size(720, 520)
+            Me.ClientSize = New System.Drawing.Size(960, 640)
             Me.Controls.Add(Me.mapControl)
             Me.Controls.Add(Me.panel1)
+            Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
             Me.Name = "Form1"
-            Me.Padding = New System.Windows.Forms.Padding(4)
+            Me.Padding = New System.Windows.Forms.Padding(5, 5, 5, 5)
             Me.Text = "Form1"
-            DirectCast(Me.mapControl, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.mapControl, System.ComponentModel.ISupportInitialize).EndInit()
             Me.panel1.ResumeLayout(False)
             Me.panel1.PerformLayout()
             Me.ResumeLayout(False)
 
         End Sub
 
-        #End Region
+#End Region
 
         Private mapControl As DevExpress.XtraMap.MapControl
         Private WithEvents lbProjection As System.Windows.Forms.ListBox

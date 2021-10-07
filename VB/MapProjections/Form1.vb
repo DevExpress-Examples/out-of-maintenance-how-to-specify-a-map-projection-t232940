@@ -8,17 +8,18 @@ Namespace MapProjections
         Inherits Form
 
         Private Const filepath As String = "..\..\Data\Countries.shp"
-        Private mapProjections As New List(Of ProjectionBase)() From { _
-            New BraunStereographicProjection(), _
-            New EllipticalMercatorProjection(), _
-            New EqualAreaProjection(), _
-            New EquidistantProjection(), _
-            New EquirectangularProjection(), _
-            New KavrayskiyProjection(), _
-            New LambertCylindricalEqualAreaProjection(), _
-            New MillerProjection(), _
-            New SinusoidalProjection(), _
-            New SphericalMercatorProjection() _
+        Private mapProjections As New List(Of ProjectionBase)() From {
+            New BraunStereographicProjection(),
+            New EllipticalMercatorProjection(),
+            New EqualAreaProjection(),
+            New EquidistantProjection(),
+            New EquirectangularProjection(),
+            New KavrayskiyProjection(),
+            New LambertCylindricalEqualAreaProjection(),
+            New MillerProjection(),
+            New SinusoidalProjection(),
+            New SphericalMercatorProjection(),
+            New Etrs89LambertAzimuthalEqualAreaProjection()
         }
 
         Private ReadOnly Property CoordinateSystem() As GeoMapCoordinateSystem

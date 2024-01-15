@@ -1,5 +1,7 @@
-﻿Namespace MapProjections
-    Partial Public Class Form1
+Namespace MapProjections
+
+    Partial Class Form1
+
         ''' <summary>
         ''' Required designer variable.
         ''' </summary>
@@ -10,14 +12,14 @@
         ''' </summary>
         ''' <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-            If disposing AndAlso (components IsNot Nothing) Then
-                components.Dispose()
+            If disposing AndAlso (Me.components IsNot Nothing) Then
+                Me.components.Dispose()
             End If
+
             MyBase.Dispose(disposing)
         End Sub
 
-        #Region "Windows Form Designer generated code"
-
+'#Region "Windows Form Designer generated code"
         ''' <summary>
         ''' Required method for Designer support - do not modify
         ''' the contents of this method with the code editor.
@@ -27,7 +29,7 @@
             Me.lbProjection = New System.Windows.Forms.ListBox()
             Me.label1 = New System.Windows.Forms.Label()
             Me.panel1 = New System.Windows.Forms.Panel()
-            DirectCast(Me.mapControl, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.mapControl), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.panel1.SuspendLayout()
             Me.SuspendLayout()
             ' 
@@ -47,6 +49,7 @@
             Me.lbProjection.Name = "lbProjection"
             Me.lbProjection.Size = New System.Drawing.Size(192, 495)
             Me.lbProjection.TabIndex = 1
+            AddHandler Me.lbProjection.SelectedIndexChanged, New System.EventHandler(AddressOf Me.lbProjection_SelectedIndexChanged)
             ' 
             ' label1
             ' 
@@ -80,19 +83,20 @@
             Me.Name = "Form1"
             Me.Padding = New System.Windows.Forms.Padding(4)
             Me.Text = "Form1"
-            DirectCast(Me.mapControl, System.ComponentModel.ISupportInitialize).EndInit()
+            AddHandler Me.Load, New System.EventHandler(AddressOf Me.Form1_Load)
+            CType((Me.mapControl), System.ComponentModel.ISupportInitialize).EndInit()
             Me.panel1.ResumeLayout(False)
             Me.panel1.PerformLayout()
             Me.ResumeLayout(False)
-
         End Sub
 
-        #End Region
-
+'#End Region
         Private mapControl As DevExpress.XtraMap.MapControl
-        Private WithEvents lbProjection As System.Windows.Forms.ListBox
+
+        Private lbProjection As System.Windows.Forms.ListBox
+
         Private label1 As System.Windows.Forms.Label
+
         Private panel1 As System.Windows.Forms.Panel
     End Class
 End Namespace
-

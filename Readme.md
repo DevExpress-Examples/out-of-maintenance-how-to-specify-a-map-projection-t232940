@@ -5,10 +5,10 @@
 <!-- default badges end -->
 <!-- default file list -->
 
-# How to specify a map projection
+# Chart for WinForms - How to Specify a Map Projection
 
 This example demonstrates how to specify a map projection that is used to display geographical data for a Map Control. 
-## Files to Look at
+## Files to Review
 
 * **[Form1.cs](./CS/MapProjections/Form1.cs) (VB: [Form1.vb](./VB/MapProjections/Form1.vb))**
 <!-- default file list end -->
